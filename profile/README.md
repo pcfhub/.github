@@ -49,8 +49,8 @@ private repository; the controls are not.
 
 A control does not have to live in this organisation to be on the hub —
 [Code Editor](https://pcfhub.dev/components/pcf-code-editor), for one, sits in its
-author's own account. The catalog is curated rather than open at the moment, so
-which controls get added is decided case by case while the hub is young.
+author's own account. The catalog is invite-only, and which controls get added is
+decided case by case.
 
 ## Anatomy of a control repository
 
@@ -86,9 +86,9 @@ failing.
 
 ## Getting a control onto the hub
 
-Submissions are not open yet — controls are added by arrangement for now. If you
-have one you would like considered, open an issue here with a link to it and we can
-talk about it. What a repository needs to be ingestible, when that time comes:
+The hub is invite-only: controls are added by arrangement, not by submission. If
+you have one you would like considered, open an issue here with a link to it. What
+a repository needs to be ingestible:
 
 1. The layout [`_template`](https://github.com/pcfhub/_template) sets up, with
    `docs/` and `pcfhub.json` kept in the repo.
