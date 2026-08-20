@@ -47,9 +47,10 @@ building it.
 control — the layout below, already wired up. The portal that hosts all of this is a
 private repository; the controls are not.
 
-The catalog is not limited to this organisation. Controls hosted anywhere on GitHub
-are published on the same terms — [Code Editor](https://pcfhub.dev/components/pcf-code-editor),
-for one, lives in its author's own account.
+A control does not have to live in this organisation to be on the hub —
+[Code Editor](https://pcfhub.dev/components/pcf-code-editor), for one, sits in its
+author's own account. The catalog is curated rather than open at the moment, so
+which controls get added is decided case by case while the hub is young.
 
 ## Anatomy of a control repository
 
@@ -83,17 +84,20 @@ Some things a sandbox genuinely cannot do (camera, device APIs, a live Dataverse
 Where that is true, the control's page says so on the demo itself rather than quietly
 failing.
 
-## Publishing a control here
+## Getting a control onto the hub
 
-1. Fork [`_template`](https://github.com/pcfhub/_template) and keep `docs/` and
-   `pcfhub.json` in the repo.
-2. Tag a release with the managed and unmanaged solutions and the demo bundle attached.
-3. Open an issue on this organisation with a link to the repository.
+Submissions are not open yet — controls are added by arrangement for now. If you
+have one you would like considered, open an issue here with a link to it and we can
+talk about it. What a repository needs to be ingestible, when that time comes:
+
+1. The layout [`_template`](https://github.com/pcfhub/_template) sets up, with
+   `docs/` and `pcfhub.json` kept in the repo.
+2. A tagged release carrying the managed and unmanaged solutions and the demo bundle.
 
 Controls stay under their author's ownership and licence. PCFHub links back to the
 repository from every page and counts downloads on the author's behalf.
 
 ## Contact
 
-Questions, bug reports and control submissions: open an issue on the relevant control
-repository, or on this one for anything about the site itself.
+Questions and bug reports: open an issue on the relevant control repository, or on
+this one for anything about the site itself.
