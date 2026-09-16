@@ -11,7 +11,6 @@
 
 <p align="center">
   <a href="https://glama.ai/mcp/connectors/io.github.pcfhub/pcfhub"><img src="https://glama.ai/mcp/connectors/io.github.pcfhub/pcfhub/badges/score.svg" alt="PCFHub MCP connector – tool definition quality and endpoint health on Glama"></a>
-  <a href="https://smithery.ai/servers/pcfhub/pcfhub"><img src="https://smithery.ai/badge/pcfhub/pcfhub" alt="PCFHub on Smithery"></a>
 </p>
 
 ---
