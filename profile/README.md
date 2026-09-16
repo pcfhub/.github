@@ -9,6 +9,11 @@
   <a href="https://pcfhub.dev"><strong>pcfhub.dev →</strong></a>
 </p>
 
+<p align="center">
+  <a href="https://glama.ai/mcp/connectors/io.github.pcfhub/pcfhub"><img src="https://glama.ai/mcp/connectors/io.github.pcfhub/pcfhub/badges/score.svg" alt="PCFHub MCP connector – tool definition quality and endpoint health on Glama"></a>
+  <a href="https://smithery.ai/servers/pcfhub/pcfhub"><img src="https://smithery.ai/badge/pcfhub/pcfhub" alt="PCFHub on Smithery"></a>
+</p>
+
 ---
 
 ## Why this exists
@@ -30,6 +35,21 @@ source.
 | Canvas + model-driven setup guides | ✗ | **✓ per control** |
 | Versioned docs and release notes | ✗ | **✓ with a version switcher** |
 | Solution downloads | link out | **✓ hosted, checksummed** |
+
+## Use it from an AI assistant
+
+The catalog is also an MCP server at `https://pcfhub.dev/mcp`, so an assistant can
+search controls, read their properties and documentation, and validate a
+`pcfhub.json` — from Claude, Cursor or VS Code, with no account needed.
+
+```
+claude mcp add --transport http pcfhub https://pcfhub.dev/mcp
+```
+
+Setup for other clients is on [pcfhub.dev/api](https://pcfhub.dev/api). It is listed
+in the official MCP Registry as `io.github.pcfhub/pcfhub`, and on
+[Glama](https://glama.ai/mcp/connectors/io.github.pcfhub/pcfhub) and
+[Smithery](https://smithery.ai/servers/pcfhub/pcfhub).
 
 ## What's in this organisation
 
